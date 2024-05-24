@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #fff;
+  background: #d3d9d4;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 
   &__content {
@@ -97,7 +97,7 @@
   }
 
   &__sm-menu {
-    background: #fff;
+    background: #d3d9d4;
     position: absolute;
     width: 100%;
     top: 100%;
@@ -126,7 +126,7 @@
       font-size: 1.6rem;
       color: #333;
       text-align: right;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid #d3d9d4;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -138,7 +138,7 @@
     }
     &:first-child {
       a {
-        border-top: 1px solid #eee;
+        border-top: 1px solid #d3d9d4;
       }
     }
   }

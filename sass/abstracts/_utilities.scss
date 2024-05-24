@@ -33,10 +33,10 @@
     margin-bottom: 3.5rem;
     position: relative;
     &--lt {
-      color: #fff;
+      color: #d3d9d4;
       &::after {
         content: '';
-        background: #fff !important;
+        background: #d3d9d4 !important;
       }
     }
     &::after {
@@ -71,7 +71,7 @@
     }
 
     &--lt {
-      color: #eee;
+      color: #d3d9d4;
     }
   }
 }
@@ -89,7 +89,7 @@
 }
 
 .btn {
-  background: #fff;
+  background: #d3d9d4;
   color: #333;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -114,11 +114,11 @@
 
   &--theme {
     background: $themeClrPrimary;
-    color: #fff;
+    color: #d3d9d4;
   }
   &--theme-inv {
     color: $themeClrPrimary;
-    background: #fff;
+    background: #d3d9d4;
     border: 2px solid $themeClrPrimary;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px);
@@ -133,7 +133,7 @@
 }
 
 .text-primary {
-  color: #fff;
+  color: #d3d9d4;
   font-size: 2.2rem;
   text-align: center;
   width: 100%;
